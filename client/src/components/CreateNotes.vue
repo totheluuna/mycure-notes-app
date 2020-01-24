@@ -55,7 +55,7 @@ export default {
           content,
         });
         // POST request to backend
-        this.$http.post("/", note);
+        this.$http.post("/notes", note);
         // Clean fields after submit
         this.titleText = '';
         this.descriptionText = '';
