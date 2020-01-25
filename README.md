@@ -5,7 +5,7 @@ This is a simple web application to take notes.
 ### Tech Stack
 * VueJS
 * ExpressJS
-* MongoDB
+* MongoDB (mLab/Mongo Atlas)
 
 ### Install Dependencies
 ```
@@ -18,8 +18,9 @@ node server/app.js
 ```
 Terminal:
 ```sh
-$ App is running on 4000
+$ App is running on http://localhost:4000
 $ Database is connected
+
 ```
 
 ### Thing not able to do
