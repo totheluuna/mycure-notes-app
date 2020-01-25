@@ -77,7 +77,7 @@ app.use((err, req, res) => {
 
 // Listen on port defined in environment
 app.listen(config.APP_PORT, () => {
-  console.log(`App is running on ${config.APP_PORT}`);
+  console.log(`App is running on http://localhost:${config.APP_PORT}`);
 }); 
 
 module.exports = app;
