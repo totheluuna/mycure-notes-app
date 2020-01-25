@@ -1,7 +1,4 @@
 # MYCURE Note Taking Application 
-###  Credit Card Application Manager
-
-[Link to web app (deployed in AWS EC2 instance)](http://ec2-34-229-179-255.compute-1.amazonaws.com:8080/pending/)
 
 This is a simple web application to take notes.
 
