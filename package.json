@@ -4,7 +4,6 @@
   "description": "Note taking application",
   "main": "server.js",
   "scripts": {
-    "build": "webpack",
     "start": "node server/app.js",
     "dev": "nodemon server/index.js"
   },
