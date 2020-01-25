@@ -6,7 +6,8 @@ import "bootstrap/dist/css/bootstrap.css";
 
 const http = axios.create({
   // baseURL: process.env.BACKEND_URL ? process.env.BACKEND_URL : 'http://localhost',
-  baseURL: process.env.BACKEND_URL ? process.env.BACKEND_URL : 'http://localhost:4000',
+  // baseURL: process.env.BACKEND_URL ? process.env.BACKEND_URL : 'http://localhost:4000',
+  baseURL: process.env.BACKEND_URL ? process.env.BACKEND_URL : '',
 });
 
 Vue.prototype.$http = http;

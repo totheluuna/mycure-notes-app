@@ -23,7 +23,7 @@ export default {
     updateNote(note) {
       let id = note._id;
       this.$http
-        .put(`/${id}`, note)
+        .put(`/notes/${id}`, note)
         .catch(error => {
           alert(error);
         });
@@ -32,7 +32,7 @@ export default {
       var removeIt = confirm("Do you really wanna remove it?");
       if (removeIt) {
         let id = note._id;
-        this.$http.delete(`/${id}`).then(() => {
+        this.$http.delete(`/notes/${id}`).then(() => {
           bus.$emit('refreshNote');
         });
         const noteIndex = this.notes.indexOf(note);

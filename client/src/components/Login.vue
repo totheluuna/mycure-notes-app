@@ -1,10 +1,19 @@
 <template>
   <div class="container">
+    <div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h1 class="ui centered header">Notes App</h1> 
+    </div>
     <div class="row">
       <div class="col-lg-6 offset-lg-3 col-sm-10 offset-sm-1">
+        
         <form
-          class="text-center border border-primary p-5"
-          style="margin-top:70px;height:auto;padding-top:100px !important;"
+          class="ui basic content center aligned segment"
+          style="margin-top:70px;height:auto;padding-top:60px !important;"
           @submit.prevent="loginUser"
         >
           <input
@@ -27,8 +36,8 @@
           />
 
           <p>
-            Dont have an account??<router-link to="/register"
-              >click here</router-link
+            Dont have an account? <router-link to="/register"
+              >Register Here</router-link
             >
           </p>
 
@@ -67,7 +76,7 @@ export default {
         }
       } catch (err) {
         swal("Error", "Something Went Wrong", "error");
-        console.log(err.response);
+        // console.log(err.response);
       }
     }
   }

@@ -19,7 +19,9 @@
       <br>
     </div>
     <div>
+      <br>
       <h1 class="ui centered header">Hello, {{ user.name }}</h1>
+      <br>
     </div>
     <div class="NotesApp">
       <NotesApp />
